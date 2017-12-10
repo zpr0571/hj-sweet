@@ -1,0 +1,407 @@
+/********************加盟恒记***********************/
+*{
+	margin:0;
+	padding:0;
+}
+p{
+    font-family: 'Microsoft YaHei';
+}
+/*1*/
+div.s3{
+	width:100%;
+	height:1600px;
+	background: url(../image/jm_02.jpg) no-repeat center bottom;
+}
+div.top{
+	width:100%;
+	height:409px;
+	background: url(../image/hj_04.jpg) no-repeat center 0;
+}
+div.container{
+	width:1100px;
+    height: 1100px;
+    margin:0 auto;
+}
+div.container>div.firstline{
+    position: relative;
+    margin-left: 343px;
+    margin-top: 54px;
+}
+div.container>p{
+	color: #825a5a;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+}
+div.flying>ul{
+	list-style: none;	
+}
+div.flying>ul>a{
+	overflow: hidden;
+}
+div.flying>ul>a>.number1{
+	background: url(../image/hjjm_07.png) no-repeat;
+    color: #fff;
+}
+.number1 p{
+    color: #fff;
+}
+div.flying>ul>a>li{
+	float: left;
+    position: relative;
+    background: url(../image/hjjm_08.png);
+    width: 191px;
+    height: 298px;
+    color: #835a5a;
+    text-align: center;
+    left:56px;
+}
+div.flying .jm_dz{
+    font-size: 20px;
+    margin: 0;
+}
+div.flying .jm_xz{
+    font-size: 9px;
+}
+/*div.flying>ul>a>.number1:active{
+	background: url(../image/hjjm_08.png);
+}*/
+/*div.flying>ul>a>.number1:active>p{
+	color: #835a5a;
+}*/
+div.flying>ul>a>li:active{
+	background: url(../image/hjjm_07.png) no-repeat;
+}
+div.flying>ul>a>li:active>p{
+	 color: #fff;
+}
+div.flying>ul>a>li>p{
+	position: relative;
+    top:180px;
+}
+div.turning{
+	border: 3px solid #fff;
+    width: 1040px;
+    position: relative;  
+    top: 92px;
+    bottom: 0;
+    clear: both;
+    right: 0;
+    height: 530px;
+    background: #f4f4f4;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+div.turning>div.turning-father{
+    position: relative;   
+}
+/*滚动条出现bug*/
+div.turning>div.turning-father>div.turning-son{
+	height:530px;
+	overflow-y:auto;	
+}
+div.turning-father>div.turning-son{
+	position: absolute;
+	opacity: 0;
+	width:950px;
+	left:50px;    
+}
+div.turning-father>div.turning-son:target{
+	display: inline-block;
+	opacity:1;
+	transition: opacity 1s;
+}
+div.turning-father>#pic1>h1{
+	font-size: 18px;
+    color: #533734;
+    font-weight: bold;
+}
+div.turning-father>#pic1>h3{
+	font-size: 16px;
+    color: #f96b17;
+}
+div.turning-father>#pic1>p{
+	font-size: 14px;
+    color: #666;
+    line-height: 27px;
+    width: 900px;
+    font-family: Microsoft YaHei;
+}
+
+/*2*/
+div.turning-father>#pic2>span:nth-child(3){
+	color: #533734;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+}
+div.turning-father>#pic2>span{
+	font-size:14px;
+	color: #666;
+	line-height: 36px;
+	font-family: Microsoft YaHei;
+}
+div.turning-father>#pic2>p{
+	font-size: 14px;
+    color: #666;
+    font-family: Microsoft YaHei;
+}
+
+/*3*/
+div.turning-father>#pic3>h3{
+	font-size: 16px;
+    color: #f96b17;
+    text-indent: 2em;
+}
+div.turning-father>#pic3>p:nth-child(3){
+	font-size: 16px;
+}
+div.turning-father>#pic3>p{
+	font-size: 14px;
+    color: #666;
+    font-family: Microsoft YaHei;
+}
+
+/*4*/
+table{
+	border:1px solid #ccc;
+	width:910px;
+	border-collapse: collapse;
+    border-spacing: 0;
+    line-height:24px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(142, 123, 109);
+    font-family: Microsoft YaHei;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;   
+}
+table>tbody>tr>td{
+	 border:1px solid #ccc;
+}
+
+/*5*/
+
+#pic5>table>tbody>tr>td:first-child{
+	padding:0 4px 0 4px;
+	font-weight: bold;
+}
+/********************加盟恒记结束***********************/
+/************************恒记新闻开始*************************/
+
+div.s4{
+	width: 100%;
+    height: 700px;
+    background: #f6f6f6 url(../image/hj_06.jpg) no-repeat center top;    
+}
+div.container2{
+	width:1100px; 
+	margin:0 auto;
+}
+div.container2>div.second-line{
+	display: inline-block;
+	position: relative;
+    margin-left: 343px;
+    margin-top: 135px; 
+}
+div.container2>p{
+	color: #825a5a;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    clear:both;
+}
+div.container2>div.down-triangle{
+	display: inline-block;
+	position: relative;
+    margin-left: 525px;
+    margin-top:20px;
+    margin-bottom:50px; 
+}
+div.included{
+	width: 1096px;
+    position: relative;
+    float: left;
+    height: 295px;
+    overflow: hidden;
+}
+div.included>a.left-hand{
+	display: block;
+	width: 25px;
+    height: 58px;
+    position: absolute;
+	top: 110px;
+    left: 0px;
+	background:url(../image/jm_10.jpg) no-repeat left 0;
+}
+div.included>a.right-hand{
+	display: block;
+	width: 25px;
+    height: 58px;
+    position: absolute;
+	top: 110px;
+    right: 0px;  
+	background:url(../image/jm_13.jpg) no-repeat left 0;
+}
+div.included>ul>a{
+	clear:both;
+	width:306px;
+	height:295px;
+}
+div.included>ul>a>li{
+	list-style: none;
+	float:left; 
+	padding-left:25px;
+}
+div.included>ul>a>li.pic21{
+	padding-left:65px;
+}
+div.included>ul>a>li>img{
+	width: 306px;
+    height: 210px;   
+}
+div.included>ul>a>li>div{
+	width: 306px;
+    height:90px;
+    background: #695250;
+    margin-top:-3px;   
+}
+div.included>ul>a>li>div:hover{
+	background:#f96b17;
+}
+div.included>ul>a>li>div>p{
+	text-align: left;
+	font-size: 14px;
+    color: #fff;
+    text-indent: 20px;
+    padding-top: 15px;
+
+}
+
+/************************恒记新闻结束*************************/
+div.s5{
+	width: 100%;
+    height: 700px;
+    background: #f6f6f6;
+}
+div.s5>div.container3{
+	width: 927px;
+    height: 638px;
+    margin: 0 auto;
+    background: url(../image/lxwm_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+div.s5>div.container3>div.container31{	
+    text-align: left;  
+    margin-left: 25px;
+    margin-top: 30px;
+}
+div.s5>div.container3>div.container31>p{
+	 color: #fff;
+	 font-size: 18px;
+	 font-family: Microsoft YaHei;
+	 line-height: 30px;
+}
+div.s5>div.container3>div.container31>p:nth-child(2){
+	text-indent: 7em;
+}
+div.s5>div.container3>div.container32{	
+	margin-left:630px;
+	margin-top: -52px;
+}
+div.s5>div.container3>div.container33{	
+   margin-top: 60px;
+   margin-left: 40px;
+    float: left;
+    overflow: hidden;
+}
+div.s5>div.container3>div.container33>ul{
+    float: left;	
+	list-style: none;
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;   
+}
+div.s5>div.container3>div.container33>ul>li>span:first-child{
+	font-size: 18px;
+    color: #6b4647;
+    line-height: 24px;
+    font-family: 'Microsoft YaHei';
+}
+div.s5>div.container3>div.container33>ul>li>span:nth-child(2){
+	font-size: 14px;
+    color:#ccc;
+    font-family: 'Microsoft YaHei';
+}
+div.s5>div.container3>div.container33>ul>li>p{
+	color: #6b4647;
+	font-size: 14px;
+	line-height:55px;
+	font-family: 'Microsoft YaHei';
+}
+div.s5>div.container3>div.container33>ul>li>input{
+	width: 298px;
+    height: 16px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    font-size: 14px;
+    color: #ccc;
+    padding: 18px 58px;
+    margin-bottom: 8px;    
+}
+div.s5>div.container3>div.container33>ul>li>input.excel1{
+	background:#fff url(../image/yjfk_10.jpg) no-repeat 20px center;
+}
+div.s5>div.container3>div.container33>ul>li>input.excel2{
+	background:#fff url(../image/yjfk_13.jpg) no-repeat 20px center;
+}
+div.s5>div.container3>div.container33>ul>li>input.excel3{
+	background:#fff url(../image/yjfk_15.jpg) no-repeat 20px center;
+}
+div.s5>div.container3>div.container33>ul>li>textarea{
+	width: 298px;
+    height: 77px;
+    border-radius:7px;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    font-size: 14px;
+   	color: #ccc;
+    background: #fff url(../image/yjfk_18.jpg) no-repeat 20px 16px;
+    padding: 18px 58px;
+    margin-bottom: 8px;
+    resize: none;/*去掉右下角框内的线*/
+}
+div.s5>div.container3>div.container33>ul>li>a>input.excel5{
+	width: 173px;
+    height: 63px;
+    font-size: 18px;
+    color: #a88687;
+    text-indent:-2em;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    background:#fff url(../image/yjfk_21.jpg) no-repeat 120px center;
+}
+div.s5>div.container3>div.container33>ul.container332{
+	padding-left: 32px;
+}
+div.s5>div.container3>div.container33>ul.container332>li>p{
+	line-height:40px;
+	font-size: 14px;
+    color: #666;
+}
+div.s5>div.container3>div.container33>ul.container332>li>p.container3322{
+	font-size: 14px;
+    color: #ccc;
+    font-family: 'Microsoft YaHei';
+    line-height:35px;
+}
+

@@ -1,0 +1,477 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	display: block;
+}
+body{
+	font-family: 'Microsoft YaHei';
+}
+ul{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+/*头部*/
+.head{
+	width: 100%;
+	height: 100px;
+	background: #005735;
+}
+.head1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+.head .logo {
+    float: left;
+    margin-left: 15px;
+}
+.head .wz {
+    float: right;
+    width: 460px;
+    height: 67px;
+    border-radius: 40px;
+    line-height: 67px;
+    text-align: center;
+    border: 2px solid #f8cd79;
+    font-size: 26px;
+    color: #f8cd79;
+    margin-top: 15px;
+}
+.banner{
+    width: 100%;
+    height: 622px;
+    background: url(../images/hjbj_02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.win {
+    width: 100%;
+    height: 895px;
+    background: url(../images/hjbj_03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.win .dbt {
+    width: 685px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.win ul {
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.win ul li {
+    float: left;
+    margin-right: 10px;
+    width: 317px;
+}
+.win ul li .ls {
+    background-color: #005735;
+    height: 165px;
+    width: 315px;
+}
+.win ul li .xbt {
+    font-size: 36px;
+    color: #005735;
+    text-align: center;
+    line-height: 52px;
+}
+.win ul li .tp {
+    width: 208px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+.win ul li p {
+    width: 208px;
+    font-size: 12px;
+    color:#005735;
+    margin: 0 auto;
+    line-height: 18px;
+}
+.win ul li .hs {
+    background: #4f3632;
+    height: 165px;
+    width: 315px;
+}
+.win ul li .xbt {
+    font-size: 36px;
+    color: #005735;
+    text-align: center;
+    line-height: 52px;
+}
+.win ul li .xbt.bt,.win ul li .p{
+	color: #fff;
+}
+.win ul li .tp {
+    width: 208px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+
+/*传统奶茶*/
+.ctnc{
+	width: 100%;
+	height: 1031px;
+	background: url(../images/hjbj_04.png) center no-repeat;
+}
+.ctnc .dbt{
+	width: 507px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.ctnc .dw .tp{
+	float: left;
+	width: 152px;
+}
+.ctnc .dw{
+	width: 800px;
+	height: 125px;
+	margin: 0 auto;
+	position: relative;
+	top: -15px;
+}
+.ctnc .dw .tp{
+	float: left;
+	width: 152px;
+}
+.ctnc .dw .wz{
+	float: right;
+	width: 600px;
+	color: #4f3632px;
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 55px;
+}
+.ctnc .cp{
+	width: 1124px;
+	height: 675px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.ctnc .cp .tp1{
+	float: left;
+	width: 224px;
+}
+.ctnc .cp .tp2{
+	float: right;
+	width: 838px;
+}
+
+/*冰室品牌*/
+.pp{
+	width: 100%;
+	height: 965px;
+	background: #005735;
+}
+.pp .dbt{
+	width: 397px;
+	height: 147px;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+.pp .pp-nr{
+	width: 1340px;
+	height: 682px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+.pp .pp-nr .tp{
+	float: left;
+	width: 520px;
+}
+.pp .pp-nr .wz ul li{
+	height: 140px;
+	margin-top: 5px;
+	float: right;
+}
+.pp .pp-nr .wz .xbt{
+	width: 171px;
+	height: 82px;
+	background: #fee028;
+	border-radius: 20px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 82px;
+	float: left;
+	margin-right: 20px;
+}
+.pp .pp-nr .wz p{
+	width: 326px;
+	height: 82px;
+	float: right;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+/*甜品品牌*/
+.tppp{
+	width: 100%;
+	height: 1069px;
+	background: url(../images/hjbj_06.png) center no-repeat;
+}
+.tppp .dbt{
+	width: 369px;
+	margin: 0 auto;
+	padding-top: 210px;
+}
+.tppp .btwz{
+	width: 877px;
+	margin: 0 auto;
+	padding-top: 48px;
+}
+.tppp .logo-tp{
+	width: 1125px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.tppp .wz{
+	font-size: 28px;
+	color: #503633;
+	width: 1124px;
+	margin:0 auto;
+	line-height: 50px;
+	margin-top: 50px;
+}
+
+
+/*走动图*/
+.sky{
+	width: 100%;
+	height: 430px;
+	background:transparent url(../images/hjbj_07.png) no-repeat center;
+	position: relative;
+}
+
+.pic{
+	width: 258px;
+	height: 420px;
+	position: absolute;
+	margin-right: 20px;
+}
+.pic:hover{
+	
+}
+.pic1{
+	animation: sky 27s linear infinite;
+	background:transparent url(../images/hjbs_82.png) 0 0 no-repeat;
+	z-index: 700;
+	top: 55px;
+}
+.pic2{
+	animation: sky 27s linear 4.5s infinite;
+	background:transparent url(../images/hjbs_84.png) 0 0 no-repeat;
+	top: 55px;
+	z-index: 600;
+}
+.pic3{
+	animation: sky 27s linear 9s infinite;
+	background:transparent url(../images/hjbs_86.png) 0 0 no-repeat;
+	top: 55px;
+	z-index: 500;
+}
+.pic4{
+	animation: sky 27s linear 13.5s infinite;
+	background:transparent url(../images/hjbs_88.png) 0 0 no-repeat;
+	top: 55px;
+	z-index: 400;
+}
+.pic5{
+	animation: sky 27s linear 18s infinite;
+	background:transparent url(../images/hjbs_90.png) 0 0 no-repeat;
+	top: 55px;
+	z-index: 300;
+}
+.pic6{
+	animation: sky 27s linear 22.5s infinite;
+	background:transparent url(../images/hjbs_92.png) 0 0 no-repeat;
+	top: 55px;
+	z-index: 200;
+}
+/*.pic7{
+	animation: sky 27s linear 27s infinite;
+	background: url(../images/hjbs_94.png) 0 0 no-repeat;
+	top: 55px;
+}
+*/
+@keyframes sky{
+	from{
+		-webkit-transform: translateX(-270px);
+		-ms-transform: translateX(-270px);
+		-o-transform: translateX(-270px);
+		transform: translateX(-260px);
+	}
+	to{
+		-webkit-transform: translateX(1450px);
+		-ms-transform: translateX(1450px);
+		-o-transform: translateX(1450px);
+		transform: translateX(1450px);
+	}
+}
+
+/*<img src="images/hjbs_82.png" alt="">
+<img src="images/hjbs_84.png" alt="">
+<img src="images/hjbs_86.png" alt="">
+<img src="images/hjbs_88.png" alt="">
+<img src="images/hjbs_90.png" alt="">
+<img src="images/hjbs_92.png" alt="">
+<img src="images/hjbs_94.png" alt="">
+*/
+
+/*赚钱*/
+.zq{
+	width: 100%;
+	height: 1054px;
+	background: #ffe7a9 url(../images/hjbj_09.png) bottom no-repeat;
+}
+.zq .dbt{
+	width: 493px;
+	height: 148px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.zq .kzbt{
+	width: 1031px;
+	height: 53px;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+.zq .zq-nr{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.zq .zq-nr .tp,
+.zq .zq-nr .tp1{
+	float: left;
+	width: 382px;
+	height: 251px;
+}
+.zq .zq-nr .wz,
+.zq .zq-nr .wz1{
+	float: right;
+	width: 578px;
+	font-size: 24px;
+	color: #4f3632;
+	line-height: 42px;
+	margin-top: 57px;
+	height: 210px;
+}
+.zq .zq-nr span{
+	color: red;
+}
+.zq .zq-nr .wz1{
+	float: left;
+	width: 563px;
+}
+.zq .zq-nr .tp1{
+	float: right;
+}
+.zq .wz2,
+.zq .wz3{
+	font-size: 30px;
+	color: #4f3632;
+	line-height: 48px;
+	text-align: center;
+}
+
+
+/*打开市场*/
+.dksc{
+	width: 100%;
+	height: 1740px;
+	background: #fff url(../images/hjbs_11.png) bottom no-repeat;
+}
+.dksc .dbt{
+	width: 1001px;
+	height: 158px;
+	margin: 0 auto;
+	padding-top: 95px;
+}
+.dksc .kzbt{
+	width: 778px;
+	height: 69px;
+	margin: 0 auto;
+	padding-top: 130px;
+}
+.dksc .xbt{
+	width: 435px;
+	height: 41px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.dksc ul{
+	width: 520px;
+	margin: 0 auto;
+	margin-top: 60px;
+	font-size: 24px;
+	color: #4f3632;
+}
+.dksc ul li{
+	width: 260px;
+	float: left;
+	height: 43px;
+	text-align: center;
+}
+/*表格*/
+.dksc .bg{
+	padding-top: 45px;
+}
+.dksc table{
+	text-align: center;
+	color: #48242c;
+	background: #e9edf4;
+	height: 530px;
+	margin: 0 auto;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+th{
+	font-weight: bold;
+	text-align: center;
+}
+td,th{
+	display: table-cell;
+	vertical-align: inherit;
+	font-size: 16px;
+}
+.dksc .lsz{
+	font-size: 24px;
+	color: #005735;
+	padding: 60px 0;
+	text-align: center;
+}
+.dksc .hsz{
+	font-size: 40px;
+	color: #4f3632;
+	text-align: center;
+}
+.dksc .tpa{
+	width: 807px;
+	height: 53px;
+	margin: 0 auto;
+	margin-top: 46px;
+}
+.dksc{
+	width: 100%;
+	height: 1740px;
+	background: #fff url(../images/hjbj_11.png) bottom no-repeat;
+}
